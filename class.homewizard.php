@@ -1,39 +1,5 @@
 <?php
 
-/*******************************************
-# Author: R. Van de Voorde
-# Version: 1.1
-# Date: 29-10-2013
-# Contact me at: free.php@wobbles.nl
-#
-# Homewizard version: 2.482
-# 
-# Known types (19-09-2013):
-#	* switches
-#	* thermometers
-#	* scenes
-#	* energymeters
-#	* uvmeters
-#	* windmeters
-#	* rainmeters
-#	* energylinks
-#	* heatlinks
-#	* somfy
-#	* kakusensors
-#	* cameras
-#
-#	Note: After each command the values $status & $version are set again.
-#
-#		* 27-10-2013
-#			f Fixed private function _switch_on			
-#		* 29-10-2013
-#			+ Added function thermo_graph.
-#			i It now replaces te-/+ and hu-/+ to te/hu_min and te/hu_plus
-#		* 12-01-2014	
-#			i Tested with the new HW firmware
-#
-********************************************/
-
 class homewizard {
 
 	public $ip_address = '';
